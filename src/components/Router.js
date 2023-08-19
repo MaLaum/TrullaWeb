@@ -19,9 +19,15 @@ function AppRouter() {
           <div className="stars" id="stars2"></div>
           <div className="stars" id="stars3"></div>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/zombies" element={<Zombies />} />
-            <Route path="/admin" element={<AdminPanel />} />
+            <Route path="/malaum.github.io/TrullaWeb" element={<Home />} />
+            <Route
+              path="/malaum.github.io/TrullaWeb/zombies"
+              element={<Zombies />}
+            />
+            <Route
+              path="/malaum.github.io/TrullaWeb/admin"
+              element={<AdminPanel />}
+            />
           </Routes>
         </main>
         <Footer />
