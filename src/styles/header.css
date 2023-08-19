@@ -1,0 +1,25 @@
+/* src/components/Header.module.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #42b3f4;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  .nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navItem {
+    text-decoration: none;
+    color: #fff;
+  }
+  
