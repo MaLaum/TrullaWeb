@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MaLaum/TrullaWeb/static/css/main.9d1e58cc.css",
-    "main.js": "/MaLaum/TrullaWeb/static/js/main.2bae324e.js",
-    "static/js/787.893b0a44.chunk.js": "/MaLaum/TrullaWeb/static/js/787.893b0a44.chunk.js",
-    "index.html": "/MaLaum/TrullaWeb/index.html",
-    "main.9d1e58cc.css.map": "/MaLaum/TrullaWeb/static/css/main.9d1e58cc.css.map",
-    "main.2bae324e.js.map": "/MaLaum/TrullaWeb/static/js/main.2bae324e.js.map",
-    "787.893b0a44.chunk.js.map": "/MaLaum/TrullaWeb/static/js/787.893b0a44.chunk.js.map"
+    "main.css": "./static/css/main.9d1e58cc.css",
+    "main.js": "./static/js/main.45068086.js",
+    "static/js/787.893b0a44.chunk.js": "./static/js/787.893b0a44.chunk.js",
+    "index.html": "./index.html",
+    "main.9d1e58cc.css.map": "./static/css/main.9d1e58cc.css.map",
+    "main.45068086.js.map": "./static/js/main.45068086.js.map",
+    "787.893b0a44.chunk.js.map": "./static/js/787.893b0a44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d1e58cc.css",
-    "static/js/main.2bae324e.js"
+    "static/js/main.45068086.js"
   ]
 }
