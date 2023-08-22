@@ -19,9 +19,9 @@ function AppRouter() {
           <div className="stars" id="stars2"></div>
           <div className="stars" id="stars3"></div>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/zombies" element={<Zombies />} />
-            <Route path="/admin" element={<AdminPanel />} />
+            <Route path="/TrullaWeb" element={<Home />} />
+            <Route path="/TrullaWeb/zombies" element={<Zombies />} />
+            <Route path="/TrullaWeb/admin" element={<AdminPanel />} />
           </Routes>
         </main>
         <Footer />

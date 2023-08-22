@@ -10,22 +10,22 @@ function Header() {
       <nav>
         <ul className="nav">
           <li>
-            <Link to="/zombies" className="navItem">
+            <Link to="/TrullaWeb/zombies" className="navItem">
               Zombies
             </Link>
           </li>
           <li>
-            <Link to="/" className="navItem">
+            <Link to="/TrullaWeb" className="navItem">
               PC Specs
             </Link>
           </li>
           <li>
-            <Link to="/" className="navItem">
+            <Link to="/TrullaWeb" className="navItem">
               Trulla
             </Link>
           </li>
           <li>
-            <Link to="/admin" className="navItem">
+            <Link to="/TrullaWeb/admin" className="navItem">
               TBD
             </Link>
           </li>
