@@ -50,6 +50,8 @@ function Servers() {
             {tab === "Live Map" && (
               <div className="border" id="box">
                 <iframe
+                  id="Vanilla map"
+                  title="Vanilla map"
                   src="http://85.253.233.158:8123/"
                   width="100%"
                   height="900"
