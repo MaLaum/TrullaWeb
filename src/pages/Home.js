@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import "../styles/home.css";
+import Checklist from "../components/Checklist";
 
 function Home() {
   return (
-    <div>
-      <a href="https://www.w3schools.com">Visit W3Schools</a>
+    <div className="flexbox">
       {/* Add Twitch stream using iframe */}
       <iframe
         id="stream_embed"
@@ -11,16 +12,12 @@ function Home() {
         frameBorder="0"
         allowFullScreen="true"
         scrolling="no"
-        height="360"
-        width="640"
+        height="720"
+        width="1280"
         title="Twitch Stream"
       ></iframe>
-      <iframe
-        id="chat_embed"
-        src="https://www.twitch.tv/embed/wadu/chat?parent=localhost"
-        height="378"
-        width="450"
-      ></iframe>
+
+      <Checklist />
     </div>
   );
 }

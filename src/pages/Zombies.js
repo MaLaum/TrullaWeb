@@ -252,8 +252,186 @@ function Home() {
             )}
             {tab === "Mapide Nimekiri" && (
               <div className="border" id="box">
-                <h2>Progressi nimekiri</h2>
-                <p>This is the content for Progressi nimekiri tab.</p>
+                <h1>Mapide Nimekiri</h1>
+                <ul className="mapsul">
+                  <ul>
+                    <li>
+                      <strong>World at War maps:</strong>
+                      <ul>
+                        <li>Nacht der Untoten</li>
+                        <li>Verrückt</li>
+                        <li>Shi No Numa</li>
+                        <li>Der Riese</li>
+                      </ul>
+                    </li>
+                    <br></br>
+                    <li>
+                      <strong>Black Ops 1 maps:</strong>
+                      <ul>
+                        <li>Kino der Toten</li>
+                        <li>"Five"</li>
+                        <li>Dead Ops Arcade</li>
+                        <li>Ascension</li>
+                        <li>Call of the Dead</li>
+                        <li>Shangri-La</li>
+                        <li>Moon</li>
+                      </ul>
+                      <strong>DLC remastered maps:</strong>
+                      <ul>
+                        <li>Nacht der Untoten</li>
+                        <li>Verrückt</li>
+                        <li>Shi No Numa</li>
+                        <li>Der Riese</li>
+                      </ul>
+                    </li>
+                    <br></br>
+                    <li>
+                      <strong>Black Ops 2 maps:</strong>
+                      <ul>
+                        <li>Tranzit</li>
+                        <strong>Tranzit subsections:</strong>
+                        <li>Bus Depot</li>
+                        <li>Town</li>
+                        <li>Farm</li>
+                        <li>Nuketown</li>
+                        <li>Die Rise</li>
+                        <li>Mob of the Dead</li>
+                        <li>Buried</li>
+                        <li>Origins</li>
+                      </ul>
+                    </li>
+                    <br></br>
+                    <li>
+                      <strong>Black Ops 3 maps:</strong>
+                      <ul>
+                        <li>Shadows of Evil</li>
+                        <li>The Giant</li>
+                        <li>Der Eisendrache</li>
+                        <li>Zetsubou No Shima</li>
+                        <li>Gorod Krovi</li>
+                        <li>Revelations</li>
+                        <strong>DLC remastered maps:</strong>
+                        <li>Nacht der Untoten</li>
+                        <li>Verrückt</li>
+                        <li>Shi No Numa</li>
+                        <li>Kino Der Toten</li>
+                        <li>Ascension</li>
+                        <li>Shangri-La</li>
+                        <li>Moon</li>
+                        <li>Origins</li>
+                      </ul>
+                    </li>
+                    <br></br>
+                    <li>
+                      <strong>Black Ops 4 maps:</strong>
+                      <ul>
+                        <li>Blood of The Dead</li>
+                        <li>Classified</li>
+                        <li>Alpha omega</li>
+                        <li>tag Der Toten</li>
+                      </ul>
+                    </li>
+                    <br></br>
+                    <li>
+                      <strong>Black Ops Cold War maps:</strong>
+                      <ul>
+                        <li>Die Maschine</li>
+                        <li>Firebase Z</li>
+                        <li>Outbreak</li>
+                        <li>Mauer der Toten</li>
+                        <li>Forsaken</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <strong>Ghosts maps:</strong>
+                      <ul>
+                        <li>Point of Contact</li>
+                        <li>Nightfall</li>
+                        <li>Mayday</li>
+                        <li>Awakening</li>
+                        <li>Exodus</li>
+                      </ul>
+                      <br></br>
+                      <li>
+                        <strong>Exo Zombies maps:</strong>
+                        <ul>
+                          <li>Outbreak</li>
+                          <li>Infection</li>
+                          <li>Carrier</li>
+                          <li>Descent</li>
+                        </ul>
+                      </li>
+                      <br></br>
+                      <li>
+                        <strong>Infinite Warfare maps:</strong>
+                        <ul>
+                          <li>Zombies in Spaceland</li>
+                          <li>Rave in the Redwoods</li>
+                          <li>Shaolin Shuffle</li>
+                          <li>Attack of the Radioactive Thing</li>
+                          <li>The Beast from Beyond</li>
+                        </ul>
+                      </li>
+                      <br></br>
+                      <li>
+                        <strong>WWII maps:</strong>
+                        <ul>
+                          <li>Gröesten Haus / Prologue</li>
+                          <li>The Final Reich</li>
+                          <li>The Darkest Shore</li>
+                          <li>The Shadowed Throne</li>
+                          <li>The Tortured Path</li>
+                          <strong>The Tortured Path chapters:</strong>
+                          <li>Chapter 1: Into the Storm</li>
+                          <li>Chapter 2: Across the Depth</li>
+                          <li>Chapter 3: Beneath the Ice</li>
+                          <li>The Frozen Dawn</li>
+                        </ul>
+                      </li>
+                      <br></br>
+                      <li>
+                        <strong>Black ops 4 Chaos maps:</strong>
+                        <ul>
+                          <li>Voyage of Despair</li>
+                          <li>IX</li>
+                          <li>Dead of The Night</li>
+                          <li>Ancient Evil</li>
+                        </ul>
+                      </li>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <strong>Dead Ops Arcade maps:</strong>
+                      <li>
+                        <strong>Black Ops 1:</strong>
+                        <ul>
+                          <li>Dead Ops Arcade</li>
+                          <strong>Black Ops 3:</strong>
+                          <li>Dead Ops Arcade 2: Cyber’s Avenging</li>
+                          <strong>Black Ops Cold War:</strong>
+                          <li>Dead Ops Arcade 3: Rise of the Mamaback</li>
+                        </ul>
+                      </li>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <li>
+                        <strong>Shit... I mean Vanguard maps:</strong>
+                        <ul>
+                          <li>Der Anfang</li>
+                          <li>Terra Maledicta</li>
+                          <li>Shi No Numa</li>
+                          <li>The Archon</li>
+                        </ul>
+                      </li>
+                    </li>
+                  </ul>
+                </ul>
               </div>
             )}
             {tab === "Story Lore" && (
