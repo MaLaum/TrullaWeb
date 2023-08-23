@@ -28,6 +28,10 @@ function Servers() {
 
   return (
     <div className="tabbed-content-container">
+      <meta
+        http-equiv="Content-Security-Policy"
+        content="upgrade-insecure-requests"
+      ></meta>
       <div className="tab-buttons">
         {tabs.map((tab) => (
           <TabButton
