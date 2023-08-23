@@ -1,4 +1,3 @@
-// src/pages/Games.js
 import React from "react";
 
 function Games() {

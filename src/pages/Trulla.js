@@ -1,4 +1,3 @@
-// src/pages/Trulla.js
 import React from "react";
 
 function Trulla() {

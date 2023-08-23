@@ -1,4 +1,3 @@
-// src/pages/Liira.js
 import React from "react";
 
 function Liira() {

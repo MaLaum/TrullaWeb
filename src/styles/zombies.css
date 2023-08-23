@@ -1,5 +1,3 @@
-/* zombies.css */
-
 body::-webkit-scrollbar{
   display: none;
 }
@@ -8,16 +6,14 @@ body::-webkit-scrollbar{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
   }
   
   .tab-buttons {
     display: flex;
     flex-direction: row;
-    gap: 10px;
     margin-bottom: 20px;
     width: 60%;
-    justify-content: space-between;
+    justify-content: center;
   }
   
   .tab-content {
@@ -46,7 +42,7 @@ table td p {
 table {
   table-layout: fixed;
   margin: auto;
-  border-collapse: collapse; /* Add this to remove spacing between table cells */
+  border-collapse: collapse;
 }
 
   button{
@@ -68,7 +64,7 @@ table {
   }
 
   .tab {
-    width: 60%;
+    width: 95%;
   }
 
   hr {
@@ -123,4 +119,21 @@ table {
     text-align: center;
     z-index: 1;
   }
-  
+
+  @media (min-width: 768px) {
+    .tabbed-content-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .tab-buttons {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      margin-bottom: 20px;
+      width: 60%;
+      justify-content: space-between;
+    }
+  }

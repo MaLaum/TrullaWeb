@@ -1,4 +1,3 @@
-// src/pages/Specs.js
 import React from "react";
 
 function Specs() {

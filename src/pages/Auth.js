@@ -1,4 +1,3 @@
-// src/pages/Auth.js
 import React from "react";
 
 function Auth() {

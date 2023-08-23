@@ -1,0 +1,61 @@
+.serverlist {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 60px;
+    margin: 15px;
+    justify-items: center;
+}
+
+#boxmc,#boxmmc,
+#boxval {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 18px;
+    color:white;
+    font-weight: bold;
+    text-shadow: 0px 0px 7px black;
+}
+
+#boxmc::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -9px;
+    width: 105%;
+    height: 100%;
+    background: url("../images/mc.png") no-repeat;
+    background-size: 100%;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+#boxmmc::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/mmc.png") no-repeat;
+    background-position: 0% 50%;
+    background-size: 100%;
+    filter: blur(2px); 
+    z-index: -1;
+}
+
+#boxval::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/val.png") no-repeat;
+    background-position: 0% 50%;
+    background-size: 100%;
+    filter: blur(2px); 
+    z-index: -1;
+}
