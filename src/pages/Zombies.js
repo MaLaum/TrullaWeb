@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/zombies.css";
+import "../styles/global.css";
 
 function TabButton({ tab, activeTab, onClick }) {
   return (
@@ -224,11 +224,11 @@ function Home() {
                       <td>-88.20%</td>
                     </tr>
                   </table>
-                  <p>
+                  <strong>
                     Hinnas sisalduvad kõik vajalikud DLC-d. Hinnad aegaajalt
                     muutuvad, kõige ajakohasemad hinnad leiad:{" "}
                     <a href="https://steamdb.info/">Steamdb.info</a>
-                  </p>
+                  </strong>
                 </div>
               </div>
             )}
@@ -448,7 +448,10 @@ function Home() {
                   <tr>
                     <td>Aether (WaW-BO4)</td>
                     <td>
-                      <a href="https://www.youtube.com/watch?v=AhZM1BK18RU">
+                      <a
+                        href="https://www.youtube.com/watch?v=AhZM1BK18RU"
+                        className="links"
+                      >
                         Full Story video
                       </a>
                     </td>
@@ -456,7 +459,10 @@ function Home() {
                   <tr>
                     <td>Dark Aether (Black Ops Cold War - Vanguard)</td>
                     <td>
-                      <a href="https://www.youtube.com/watch?v=PLpN76bBdhU">
+                      <a
+                        href="https://www.youtube.com/watch?v=PLpN76bBdhU"
+                        className="links"
+                      >
                         Full Story video
                       </a>
                     </td>
@@ -464,7 +470,10 @@ function Home() {
                   <tr>
                     <td>Dead Ops Arcade (WaW-BO4)</td>
                     <td>
-                      <a href="https://www.youtube.com/watch?v=pJGpF2xQb4w">
+                      <a
+                        href="https://www.youtube.com/watch?v=pJGpF2xQb4w"
+                        className="links"
+                      >
                         Full Story video
                       </a>
                     </td>
@@ -472,7 +481,10 @@ function Home() {
                   <tr>
                     <td>Chaos (BO4)</td>
                     <td>
-                      <a href="https://www.youtube.com/watch?v=YQr519xrGSw">
+                      <a
+                        href="https://www.youtube.com/watch?v=YQr519xrGSw"
+                        className="links"
+                      >
                         Full Story video
                       </a>
                     </td>
@@ -480,7 +492,10 @@ function Home() {
                   <tr>
                     <td>Extinction (Ghosts)</td>
                     <td>
-                      <a href="https://www.youtube.com/watch?v=uyhIo-FCkTc">
+                      <a
+                        href="https://www.youtube.com/watch?v=uyhIo-FCkTc"
+                        className="links"
+                      >
                         Full Story video
                       </a>
                     </td>
@@ -488,7 +503,10 @@ function Home() {
                   <tr>
                     <td>Exo Zombies (Advanced Warfare)</td>
                     <td>
-                      <a href="https://www.youtube.com/watch?v=47t_N_RXPX8">
+                      <a
+                        href="https://www.youtube.com/watch?v=47t_N_RXPX8"
+                        className="links"
+                      >
                         Full Story video
                       </a>
                     </td>
@@ -496,7 +514,10 @@ function Home() {
                   <tr>
                     <td>IW Zombies (Infinite Warfare)</td>
                     <td>
-                      <a href="https://www.youtube.com/watch?v=FGFzkh5jp6k">
+                      <a
+                        href="https://www.youtube.com/watch?v=FGFzkh5jp6k"
+                        className="links"
+                      >
                         Full Story video
                       </a>
                     </td>
@@ -504,7 +525,10 @@ function Home() {
                   <tr>
                     <td>WWII Zombies (WWII)</td>
                     <td>
-                      <a href="https://www.youtube.com/watch?v=N0-06ISOzB8">
+                      <a
+                        href="https://www.youtube.com/watch?v=N0-06ISOzB8"
+                        className="links"
+                      >
                         Full Story video
                       </a>
                     </td>

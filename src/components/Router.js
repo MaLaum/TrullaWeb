@@ -11,7 +11,6 @@ import Auth from "../pages/Auth";
 import Footer from "./Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "../styles/background.css";
-import "../styles/footer.css";
 
 function AppRouter() {
   return (

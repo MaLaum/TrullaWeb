@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/zombies.css";
+import "../styles/global.css";
 import "../styles/server.css";
 
 function TabButton({ tab, activeTab, onClick }) {

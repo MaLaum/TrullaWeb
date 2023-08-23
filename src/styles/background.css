@@ -1,3 +1,9 @@
 body {
   background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

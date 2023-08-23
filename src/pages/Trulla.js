@@ -1,10 +1,14 @@
 import React from "react";
+import "../styles/global.css";
 
 function Trulla() {
   return (
-    <div>
-      <h1>Trulla</h1>
-      {/* Add your admin panel content here */}
+    <div className="tabbed-content-container">
+      <div className="tab">
+        <div className="border" id="box">
+          <h1>Trulla üldinfo</h1>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/home.css";
+import "../styles/global.css";
+
 import Checklist from "../components/Checklist";
 
 function Home() {

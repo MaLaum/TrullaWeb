@@ -1,0 +1,18 @@
+.column-layout {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    justify-items: center;
+    grid-row-gap: 25px;
+    grid-column-gap: 50px;
+    margin: 20px;
+  }
+  
+  .column-layout > div {
+    text-align: center;
+  }
+  
+  .links {
+    color: #42b3f4;
+    text-decoration: none;
+  }
