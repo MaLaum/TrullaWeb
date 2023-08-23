@@ -7,7 +7,7 @@ function Footer() {
     for (let i = 0; i < 128; i++) {
       const size = 2 + Math.random() * 4 + "rem";
       const distance = 6 + Math.random() * 4 + "rem";
-      const position = -5 + Math.random() * 110 + "%";
+      const position = Math.random() * 99 + "%";
       const time = 2 + Math.random() * 2 + "s";
       const delay = -1 * (2 + Math.random() * 2) + "s";
       const bubbleStyle = {
