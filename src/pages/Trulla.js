@@ -7,6 +7,9 @@ function Trulla() {
       <div className="tab">
         <div className="border" id="box">
           <h1>Trulla üldinfo</h1>
+          <p>
+            Vältida isikliku info lisamist kuniks autentimis süsteem valmis!
+          </p>
         </div>
       </div>
     </div>
