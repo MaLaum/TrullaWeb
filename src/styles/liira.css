@@ -1,0 +1,17 @@
+.flex-vert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#box {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.text-width {
+    max-width: 50%;
+}

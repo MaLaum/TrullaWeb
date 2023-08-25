@@ -1,8 +1,7 @@
 .flexbox {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
+  padding: 25px;
 }
 
 .ajutine {
@@ -15,4 +14,14 @@
 ul {
   list-style: none;
   padding: 0;
+}
+
+#boxstream {
+  background: rgba(255, 255, 255, .15);
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  justify-content: center;
 }
