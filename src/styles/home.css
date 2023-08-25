@@ -49,6 +49,7 @@ ul {
   align-items: center;
   justify-content: center;
   flex-direction: unset;
+  display: flex;
 }
 
 #streamsbox::before {
