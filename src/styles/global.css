@@ -92,6 +92,8 @@ body::-webkit-scrollbar{
       z-index: 1;
       border-radius: 10px;
       overflow: hidden;
+      align-items: center;
+      justify-content: center;
     }
     
     #box::before {

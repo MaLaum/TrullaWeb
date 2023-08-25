@@ -37,7 +37,7 @@ function Home() {
           <iframe
             id="chat_ats"
             title="ats_chat"
-            src="https://www.twitch.tv/embed/marvinthefunny/chat?parent=malaum.github.io"
+            src="https://www.twitch.tv/embed/mctrulla/chat?parent=malaum.github.io"
             height="480"
             width="400"
           ></iframe>
