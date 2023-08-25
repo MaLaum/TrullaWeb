@@ -25,3 +25,41 @@ ul {
   overflow: hidden;
   justify-content: center;
 }
+
+#boxstream::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: rgba(255, 255, 255, .15);
+  border-radius: 10px;
+  z-index: -1;
+  backdrop-filter: blur(5px);
+}
+
+#streamsbox {
+  background: rgba(255, 255, 255, .15);
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  flex-direction: unset;
+}
+
+#streamsbox::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: rgba(255, 255, 255, .15);
+  border-radius: 10px;
+  z-index: -1;
+  backdrop-filter: blur(5px);
+}

@@ -7,7 +7,7 @@ import Checklist from "../components/Checklist";
 function Home() {
   return (
     <div className="flexbox">
-      <div className="border" id="box">
+      <div className="border" id="streamsbox">
         <div className="border" id="boxstream">
           <iframe
             id="stream_marv"
