@@ -94,6 +94,7 @@ body::-webkit-scrollbar{
       overflow: hidden;
       align-items: center;
       justify-content: center;
+      flex-direction: unset;
     }
     
     #box::before {
